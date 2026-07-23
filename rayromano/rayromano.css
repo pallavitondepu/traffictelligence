@@ -1,0 +1,361 @@
+*{
+    margin: 0%;
+    border: 0%;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro",sans-serif;
+}
+nav{
+    /* border: 2px solid; */
+    height: 190px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+nav div+div{
+    width: 40%;
+}
+nav div{
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 42%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+nav ol{
+    list-style: none;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid green; */
+    justify-content: space-between;
+    align-items: center;
+    font-size: 7px;
+    font-weight: 600;
+    width: 400%;
+    gap: 30px;
+    /* letter-spacing: 5px; */
+}
+nav li:hover{
+    color: gray;
+}
+main{
+    /* border: 2px solid; */
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: url(https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1510764242245-JIWZSYBY8CYHZBOEUGAM/Ray+Romano+Loft+renovation+nyc+brooklyn+hamptons+luxury+construction.jpg?format=2500w) center 60% / 100% no-repeat fixed
+}
+main {
+    height: 800px;
+    width: 100%;
+    /* border: 2px solid; */
+    background-color: rgba(255, 255, 255, .6);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    font-size: 20px;
+    
+}
+main h1{
+    /* border: 2px solid; */
+    background-color: rgba(255, 255, 255, .6);
+    color:black;
+    height: 80px;
+    width: 45%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: "Source Sans Pro",sans-serif;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+main p{
+    /* border: 2px solid; */
+    background-color: rgba(255,255,255, .83);
+    color:black;
+    height: 90px;
+    width: 57%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-spacing: 1.5px;
+    /* text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 300; */
+    font-family: "Source Sans Pro",sans-serif;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+ #sec1{
+    /* border: 2px solid red; */
+    height: 480px;
+    color: #363636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec1 div{
+    /* border: 2px solid green; */
+    height: 250px;
+    width: 64%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#sec1 h2{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+#sec1 p{
+   line-height: 30px;
+   font-family: "Source Sans Pro",sans-serif;
+   font-size: 20px;
+   font-weight: 400;
+}
+#sec2{
+    /* border: 2px solid red; */
+    height: 950px;
+    background: url(https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1510765722553-76QEADJUAJRSEYMGLNSA/Ray+Romano+Contracting+combination+renovation+luxury+contemporary+Upper+East+Side+NYC+Hamptons+Brooklyn+NJ.jpg?format=2500w) center 60% / 100% no-repeat fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec2 div{
+    /* border: 2px solid green; */
+    height: 750px;
+    width: 80%;
+}
+#sec2 h1{
+    /* border: 2px solid; */
+    background-color: rgba(255, 255, 255, .6);
+    color:black;
+    height: 130px;
+    width: 70%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: "Source Sans Pro",sans-serif;
+}
+ #sec3{
+    /* border: 2px solid red; */
+    height: 480px;
+    color: #363636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec3 div{
+    /* border: 2px solid green; */
+    height: 250px;
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#sec3 h2{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+#sec3 p{
+   line-height: 30px;
+   font-family: "Source Sans Pro",sans-serif;
+   font-size: 20px;
+   font-weight: 400;
+}
+#sec4{
+    /* border: 2px solid red; */
+    height: 950px;
+    background: url(https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1510766494470-KZDDR11SFE43N4RHTCLR/Ray+Romano+Hamptons+Sag+Harbor+renovation.jpg?format=2500w) center 60% / 100% no-repeat fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec4 div{
+    /* border: 2px solid green; */
+    height: 750px;
+    width: 90%;
+}
+#sec4 h1{
+    /* border: 2px solid; */
+    background-color: rgba(255, 255, 255, .6);
+    color:black;
+    height: 85px;
+    width: 23%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: "Source Sans Pro",sans-serif;
+}
+#sec5{
+    /* border: 2px solid red; */
+    height: 480px;
+    color: #363636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec5 div{
+    /* border: 2px solid green; */
+    height: 250px;
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#sec5 h2{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+#sec5 p{
+   line-height: 30px;
+   font-family: "Source Sans Pro",sans-serif;
+   font-size: 20px;
+   font-weight: 400;
+}
+#sec6{
+    /* border: 2px solid red; */
+    height: 950px;
+    background: url(https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1511367750555-BQMOKM1VBYO8IKWMX44W/1040.JPG?format=2500w) center 60% / 100% no-repeat fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec6 div{
+    /* border: 2px solid green; */
+    height: 750px;
+    width: 90%;
+}
+#sec6 h1{
+    /* border: 2px solid; */
+    background-color: rgba(255, 255, 255, .6);
+    color:black;
+    height: 85px;
+    width: 23%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: "Source Sans Pro",sans-serif;
+}
+#sec7{
+    /* border: 2px solid pink; */
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+#sec7 h2{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2.3px;
+    line-height: 60px;
+}
+#sec7 h2 em{
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+#sec7 p{
+   line-height: 25px;
+   font-family: "Source Sans Pro",sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+}
+#sec8{
+    /* border: 2px solid red; */
+    height: 950px;
+    background: url(https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1510767064224-MG3QKU4EG3Y4TCIEHUZQ/Custom+Closet+Ray+Rompano+Contracting+NYC+Brooklyn+Upper+east+Side+NYC+renovation.jpg?format=2500w) center 60% / 100% no-repeat fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec8 div{
+    /* border: 2px solid green; */
+    height: 750px;
+    width: 90%;
+}
+#sec8 h1{
+    /* border: 2px solid; */
+    background-color: rgba(255, 255, 255, .6);
+    color:black;
+    height: 85px;
+    width: 17%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: "Source Sans Pro",sans-serif;
+}
+#sec9 {
+    /* border: 2px solid purple; */
+    height: 1050px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 280px 280px 280px ;
+    column-gap: 30px;
+    /* row-gap: 0px; */
+    justify-content: center;
+    align-content: center;
+}
+#sec9 div{
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+footer{
+    height: 150px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer #d1{
+    /* border: 2px solid white; */
+    height: 50px;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
